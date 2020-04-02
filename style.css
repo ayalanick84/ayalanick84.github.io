@@ -1,0 +1,44 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .bg {
+    /* The image used */
+    background-image: url("https://images.pexels.com/photos/461940/pexels-photo-461940.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #selfie {
+      max-width: 100px;
+      max-height: 100px;
+  }
+  h1 {
+      
+      color: aliceblue;
+      text-align: center;
+      font-size: xx-large ;
+      font-family: 'Pacifico', cursive;
+  }
+  #portHeader {
+      margin-bottom: 40px;
+  }
+  .card-img-top {
+    width: auto;
+    height: auto;
+}
+.card-body {
+  background-color: #B6666F;
+}
+ .projects {
+max-width: 300px;
+max-height: 250px;
+display: block;
+}
